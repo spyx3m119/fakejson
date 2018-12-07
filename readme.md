@@ -27,3 +27,5 @@ if (isset($error_msg)) {
 
 $data = json_decode( $content, true ); 
 $student_data = $data['register']['0'];
+
+var_dump($student_data['last_name']); // Echo Student Last Name
