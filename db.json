@@ -22,35 +22,35 @@
 		"first_name": "Elizabeth",
 		"last_name": "Nichols",
 		"when_opt": [{
-				"whenoptid": 1,
+				"id": 1,
 				"date": "Saturday, December 15, 2018",
 				"times": [{
-					"timeid": 1,
+					"id": 1,
 					"time": "9:00am",
 					"avail": true
 				}, {
-					"timeid": 2,
+					"id": 2,
 					"time": "12:00pm",
 					"avail": false
 				}, {
-					"timeid": 3,
+					"id": 3,
 					"time": "3:00pm",
 					"avail": true
 				}]
 			},
 			{
-				"whenoptid": 2,
+				"id": 2,
 				"date": "Saturday, December 15, 2018",
 				"times": [{
-					"timeid": 1,
+					"id": 1,
 					"time": "9:00am",
 					"avail": true
 				}, {
-					"timeid": 2,
+					"id": 2,
 					"time": "12:00pm",
 					"avail": true
 				}, {
-					"timeid": 3,
+					"id": 3,
 					"time": "3:00pm",
 					"avail": false
 				}]
