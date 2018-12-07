@@ -1,6 +1,6 @@
 <h2>Serving JSON data to test cURL functionality.</h2>
 
-Use this server url: https://my-json-server.typicode.com/spyx3m119/fakejson
+Use this server url: https://my-json-server.typicode.com/spyx3m119/fakejson/db
 
 Example Usage:
 
