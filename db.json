@@ -1,7 +1,7 @@
 {
 	"register": [
 		{ 
-			"regid" : 1,
+			"id" : 1,
 			"reservation_number": 1812150103898,
 			"first_name": "Elizabeth",
 			"last_name": "Nichols",
@@ -17,6 +17,7 @@
 	],
 	"session" : [
 		{
+		"id" : 1,
 		"reservation_number": 1812150103898,
 		"first_name": "Elizabeth",
 		"last_name": "Nichols",
