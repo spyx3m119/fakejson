@@ -1,9 +1,9 @@
-Serving JSON data to test cURL functionality.
+<h2>Serving JSON data to test cURL functionality.</h2>
 
 Use this server url: https://my-json-server.typicode.com/spyx3m119/fakejson
 
 Example:
-<code>A piece of computer code</code><br>
+<code>
 $qry_str = "?method=find_reservation";
 
 $ch = curl_init();
@@ -27,5 +27,4 @@ if (isset($error_msg)) {
 }
 
 $data = json_decode( $content, true ); 
-$student_data = $data['register']['0']; 
-?>
+$student_data = $data['register']['0']; </code>
