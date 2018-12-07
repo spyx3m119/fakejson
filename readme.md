@@ -3,7 +3,6 @@ Serving JSON data to test cURL functionality.
 Use this server url: https://my-json-server.typicode.com/spyx3m119/fakejson
 
 Example:
-<code>
 <?php 
 
 $qry_str = "?method=find_reservation";
@@ -33,4 +32,3 @@ $data = json_decode( $content, true );
 $student_data = $data['register']['0']; 
 //var_dump($student_data['last_name']);
 ?>
-</code>
