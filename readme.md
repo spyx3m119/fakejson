@@ -2,7 +2,7 @@
 
 Use this server url: https://my-json-server.typicode.com/spyx3m119/fakejson
 
-Example:
+Example Use:
 
 ```php
 $ch = curl_init();
