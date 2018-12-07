@@ -1,16 +1,64 @@
 {
-	"status": "success",
-	"data": {
+	"register": [
+		{ 
+			"regid" : 1,
+			"reservation_number": 1812150103898,
+			"first_name": "Elizabeth",
+			"last_name": "Nichols",
+			"graduation_class": 2021,
+			"parent_first_name": "John",
+			"parent_last_name": "Smith",
+			"phone_type": "Cell",
+			"phone_number": "(678) 230-3430",
+			"email_type": "Student",
+			"email_address": "elizabeth@gmail.com",
+			"workshop": "bacb7cd9-9bb0-41f8-99b1-84324e89c994"
+		}
+	],
+	"session" : [
+		{
 		"reservation_number": 1812150103898,
 		"first_name": "Elizabeth",
 		"last_name": "Nichols",
-		"graduation_class": 2021,
-		"parent_first_name": "John",
-		"parent_last_name": "Smith",
-		"phone_type": "Cell",
-		"phone_number": "(678) 230-3430",
-		"email_type": "Student",
-		"email_address": "elizabeth@gmail.com",
-		"workshop": "bacb7cd9-9bb0-41f8-99b1-84324e89c994"
-	}
+		"when_opt": [{
+				"whenoptid": 1,
+				"date": "Saturday, December 15, 2018",
+				"times": [{
+					"timeid": 1,
+					"time": "9:00am",
+					"avail": true
+				}, {
+					"timeid": 2,
+					"time": "12:00pm",
+					"avail": false
+				}, {
+					"timeid": 3,
+					"time": "3:00pm",
+					"avail": true
+				}]
+			},
+			{
+				"whenoptid": 2,
+				"date": "Saturday, December 15, 2018",
+				"times": [{
+					"timeid": 1,
+					"time": "9:00am",
+					"avail": true
+				}, {
+					"timeid": 2,
+					"time": "12:00pm",
+					"avail": true
+				}, {
+					"timeid": 3,
+					"time": "3:00pm",
+					"avail": false
+				}]
+			}
+		],
+		"where": "Holiday Inn & Suites Lake Charles",
+		"located": "2940 Lake St. - Lake Charles, LA",
+		"phone": "337-310-7700",
+		"meeting_room": "Bayou 2 room",
+		"directions": "Free parking. From I-10 E - Take I-210 E to Lake Street, Exit 5, then make a left. One block, on the left. From I-10 W - Take I-210 W to Lake Street, Exit 5, then make a right. One block, on the left."
+		}]
 }
