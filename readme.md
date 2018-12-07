@@ -4,7 +4,7 @@ Use this server url: https://my-json-server.typicode.com/spyx3m119/fakejson
 
 Example:
 
-'''php
+```php
 $qry_str = "?method=find_reservation";
 
 $ch = curl_init();
